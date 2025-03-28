@@ -93,7 +93,8 @@ defmodule Tunez.MixProject do
         "tailwind tunez --minify",
         "esbuild tunez --minify",
         "phx.digest"
-      ]
+      ],
+      "phx.routes": ["phx.routes", "ash_json_api.routes"]
     ]
   end
 end
